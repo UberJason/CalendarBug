@@ -1,0 +1,15 @@
+PODS:
+  - DateToolsSwift (2.0.3)
+  - JTAppleCalendar (7.0.1)
+
+DEPENDENCIES:
+  - DateToolsSwift
+  - JTAppleCalendar
+
+SPEC CHECKSUMS:
+  DateToolsSwift: bf69bf9056d9e53c5c03f06e51f219b9b8b02f9e
+  JTAppleCalendar: 7c8cba3e06fd6fdfed72382eeeb87c304e727ddb
+
+PODFILE CHECKSUM: 2ea4172ce760c431efa30664771ecfee429bd942
+
+COCOAPODS: 1.2.0

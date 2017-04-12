@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F4864881E9ECFAE00D4E10B"
-               BuildableName = "CalendarBug.app"
-               BlueprintName = "CalendarBug"
-               ReferencedContainer = "container:CalendarBug.xcodeproj">
+               BlueprintIdentifier = "B61F7F6B9E4615378EB931E6BE2B42BB"
+               BuildableName = "Pods_CalendarBugUITests.framework"
+               BlueprintName = "Pods-CalendarBugUITests"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F48649C1E9ECFAE00D4E10B"
-               BuildableName = "CalendarBugUITests.xctest"
-               BlueprintName = "CalendarBugUITests"
-               ReferencedContainer = "container:CalendarBug.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F4864881E9ECFAE00D4E10B"
-            BuildableName = "CalendarBug.app"
-            BlueprintName = "CalendarBug"
-            ReferencedContainer = "container:CalendarBug.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F4864881E9ECFAE00D4E10B"
-            BuildableName = "CalendarBug.app"
-            BlueprintName = "CalendarBug"
-            ReferencedContainer = "container:CalendarBug.xcodeproj">
+            BlueprintIdentifier = "B61F7F6B9E4615378EB931E6BE2B42BB"
+            BuildableName = "Pods_CalendarBugUITests.framework"
+            BlueprintName = "Pods-CalendarBugUITests"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F4864881E9ECFAE00D4E10B"
-            BuildableName = "CalendarBug.app"
-            BlueprintName = "CalendarBug"
-            ReferencedContainer = "container:CalendarBug.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

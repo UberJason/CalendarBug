@@ -1,0 +1,6 @@
+framework module Pods_CalendarBug {
+  umbrella header "Pods-CalendarBug-umbrella.h"
+
+  export *
+  module * { export * }
+}
