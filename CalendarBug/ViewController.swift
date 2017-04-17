@@ -53,6 +53,13 @@ class ViewController: UIViewController {
 
     @IBAction func toggleTapped(_ sender: Any) {
         toggleCalendarAnimated()
+        
+        DispatchQueue.main.asyncAfter(
+            deadline: DispatchTime.now() +
+                Double(Int64(1.0 * Double(NSEC_PER_SEC))) /
+                Double(NSEC_PER_SEC)) {
+                    print("after 1s delay, selected dates: \(self.calendarView.selectedDates)")
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
