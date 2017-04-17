@@ -81,12 +81,8 @@ class ViewController: UIViewController {
             }
         }, completion: { (finished) in
             
-            let selectedDate = self.calendarView.selectedDates.first
             self.calendarView.reloadData(with: self.calendarView.selectedDates.first) {
                 print("in completion handler, selected dates: \(self.calendarView.selectedDates)")
-                if let selectedDate = selectedDate {
-                    self.calendarView.scrollToDate(selectedDate, triggerScrollToDateDelegate: false, animateScroll: false, preferredScrollPosition: .bottom, completionHandler: nil)
-                }
             }
             
             UIView.animate(withDuration: completionDuration) {
